@@ -139,7 +139,6 @@ nav li input {
 
 .top-four-articles-grid article {
   position: relative;
-  border: solid red 1px;
   padding: 30px 80px 40px;
   height: 700px;
   flex-direction: column;
@@ -169,7 +168,7 @@ nav li input {
   left: 80px;
   bottom: 20px;
   font-size: 32px;
-  color: red;
+  color: #fff;
 }
 
 
