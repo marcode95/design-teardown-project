@@ -93,8 +93,13 @@ nav li input {
   font-size: 2.8rem;
 }
 
+.top-four-articles-grid h2 span {
+  font-size: 1rem;
+}
+
 .top-four-articles-grid article {
   border: solid red 1px;
+  padding: 10px 80px 40px;
 }
 
 
