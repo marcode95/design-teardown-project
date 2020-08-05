@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border: 1px solid red;
+  background-color: #d33a2c;
+  padding: 0 1rem;
+}
+
+nav {
+  padding: 1rem 0;
+}
+
+nav li img {
+  height: 3.5rem;
+}
+
+nav li button {
+  color: #fff;
+  background-color: inherit;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+nav li input {
+  width: 350px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content {
+  justify-content: space-around;
+}
+
+.align-items {
+  align-items: center;
+}
