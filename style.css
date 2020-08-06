@@ -11,6 +11,7 @@ a {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
 }
 
 .flex {
@@ -63,12 +64,27 @@ body {
 .see-more {
   text-align: center;
   padding: 0.5rem 0;
-  margin-top: 60px;
+  padding: 60px 0;
 }
 
 .see-more-link {
   border-bottom: 3px solid #d33a2c;
   text-decoration: none;
+}
+
+body h2 {
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+}
+
+.rotate-on-hover {
+  transform: rotate(-15deg);
+  transition: ease-in 0.35s;
+  transform-origin: bottom left;
+}
+
+.rotate-on-hover:hover {
+  transform: rotate(0);
 }
 
 /* header */
@@ -154,15 +170,8 @@ nav li input {
 .small-transition-box {
   width: 84px;
   height: 84px;
-  transform: rotate(-15deg);
   background-color: #ccc;
-  transition: ease-in 0.35s;
   margin-right: 40px;
-  transform-origin: bottom left;
-}
-
-.small-transition-box:hover {
-  transform: rotate(0);
 }
 
 .very-small-transition-box svg {
@@ -192,10 +201,6 @@ nav li input {
   font-weight: 700;
 }
 
-.top-four-articles-grid h2 {
-  font-size: 2.8rem;
-}
-
 .top-four-articles-grid h2 span {
   font-size: 1rem;
 }
@@ -207,7 +212,6 @@ nav li input {
 /* == Latest-posts-grid == */
 
 .latest-posts {
-  background-color: #f1f1f1;
   padding-top: 35px;
   position: relative;
 }
@@ -282,10 +286,6 @@ nav li input {
   margin: 2.5rem 0;
 }
 
-.latest-posts-grid .flyer h2 {
-  line-height: 2.2rem;
-}
-
 .latest-posts-grid .flyer p {
   margin: 3rem 0;
   line-height: 1.5rem;
@@ -300,6 +300,7 @@ nav li input {
 }
 
 /* == shipping-now == */
+
 .shipping-now {
   background-color: #1b71bb;
   background-image: linear-gradient(#1b71bb 45%,#4399d9 100%);
@@ -317,4 +318,51 @@ nav li input {
 .shipping-now img {
   width: 920px;
   height: 517px;
+}
+
+.shipping-now h2 {
+  margin: 30px 0;
+}
+
+.shipping-now button {
+  margin-top: 30px;
+}
+
+/* == person-of-the-week == */
+
+.person-of-the-week {
+  padding: 100px 50px 300px 114px;
+  position: relative;
+  color: #333;
+}
+
+.community-links-vertical {
+  left: -60px;
+}
+
+.person-of-week-frame {
+  float: left;
+  width: 20%;
+}
+
+.person-of-week-frame img{
+  border: 8px solid #d33a2c;
+  border-radius: 12px;
+  width: 240px;
+}
+
+.bio {
+  float: right;
+  width: 80%;
+  line-height: 1.9rem;
+  font-size: 1.1rem;
+}
+
+.bio h4 {
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+.bio a {
+  color: blue;
 }
