@@ -49,6 +49,10 @@ body {
   font-size: 32px;
 }
 
+.margin-bottom-150 {
+  margin-bottom: 150px;
+}
+
 /* header */
 
 ul {
@@ -183,29 +187,67 @@ nav li input {
 }
 
 /* == Latest-posts-grid == */
+.latest-posts {
+  background-color: #f1f1f1;
+}
+
 .latest-posts-grid {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 80px;
+  padding-left: 20px;
 }
 
 .latest-posts-grid article {
-  border: 1px solid red;
-  line-height: 1.5rem;
-  font-size: 0.9rem;
+  line-height: 1.9rem;
+  font-size: 1.3rem;
   color: #444;
-  padding: 0 30px 0 15px;
+  padding: 0 50px 0 50px;
   position: relative;
 }
 
-.latest-posts-grid a {
-  text-decoration: none;
+.latest-posts-grid article h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-decoration: underline;
 }
+
+.latest-posts-grid .author a {
+  text-decoration: underline;
+}
+
+.latest-posts-grid article span {
+  background-color: inherit;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.latest-posts-grid article span i {
+  position: absolute;
+  left: 50px;
+  top: 37px;
+}
+
+.latest-posts-grid article:hover {
+  transform: scale(1.08);
+  transition: all 0.6s;
+  background-color: white;
+} 
+
+.latest-posts-grid article:hover span {
+  background-color: #006fc6;
+  transition: all 0.6s;
+} 
 
 .latest-posts-grid .flyer {
   background-color: #a32d22;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 2.rem;
   color: #fff;
   padding: 1rem 2rem;
+  border-radius: 10px;
 }
 
 .latest-posts-grid .flyer img {
@@ -217,10 +259,8 @@ nav li input {
   margin-bottom: 2rem;
 }
 
-.latest-posts-grid .underline {
+.latest-posts-grid .flyer .underline {
   text-decoration: underline;
 }
 
-.latest-posts-grid article span {
-  background-color red;
-}
+
