@@ -464,6 +464,11 @@ nav li input {
 }
 
 /* == our-guides-grid == */
+
+.our-guides {
+  position: relative;
+}
+
 .our-guides-grid {
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px 20px;
@@ -472,7 +477,7 @@ nav li input {
 
 .our-guides-grid article {
   background-color: #fff;
-  padding: 20px;
+  padding: 30px 40px;
   line-height: 1.5rem;
   border-radius: 12px;
 }
@@ -541,4 +546,67 @@ nav li input {
   text-align: center;
   padding: 0 10px;
   border-radius: 7px;
+}
+
+/* == our-guides-grid == */
+
+.footer {
+  background-color: #d33a2c;
+  text-align: center;
+  color: white;
+  padding: 60px; 
+  line-height: 2rem;
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.footer-headline {
+  margin-bottom: 30px;
+}
+
+.footer ul {
+  list-style-type: disc;
+  margin-bottom: 30px;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin-right: 23px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+}
+
+.footer ul li:before {
+  content: "";
+  display: list-item;
+  position: absolute;
+  margin-right: 23px;
+}
+
+.footer-commitment-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.0rem;
+  font-style: italic;
+}
+
+.footer-copyright-text {
+  font-size: 1.0rem;
+  margin-bottom: 30px;
+}
+
+.footer-options {
+  font-size: 1.0rem;
+}
+
+.footer-options a {
+  margin-right: 10px;
+}
+
+.footer img {
+  width: 10%;
+  position: absolute;
+  bottom: 30px;
+  left: 160px;
 }
