@@ -116,11 +116,11 @@ nav li input {
   background-color: #ccc;
   transition: ease-in 0.35s;
   margin-right: 40px;
+  transform-origin: bottom left;
 }
 
 .small-transition-box:hover {
   transform: rotate(0);
-  transform-origin: bottom left;
 }
 
 .very-small-transition-box svg {
@@ -134,12 +134,11 @@ nav li input {
   grid-template-columns: 1fr 1fr;
   color: white;
   background-color: #a32d22;
-  padding-top: 120px;
 }
 
 .top-four-articles-grid article {
   position: relative;
-  padding: 30px 80px 40px;
+  padding: 65px 80px 40px;
   height: 700px;
   flex-direction: column;
   justify-content: center;
