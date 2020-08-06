@@ -252,15 +252,22 @@ nav li input {
 
 .latest-posts-grid .flyer img {
   width: 224px;
-  margin-bottom: 1.5rem;
+  margin: 2.5rem 0;
 }
 
-.flyer p {
-  margin-bottom: 2rem;
+.latest-posts-grid .flyer h2 {
+  line-height: 2.2rem;
+}
+
+.latest-posts-grid .flyer p {
+  margin: 3rem 0;
+  line-height: 1.5rem;
+}
+
+.latest-posts-grid .flyer .already-have-acc {
+  margin-top: 1rem;
 }
 
 .latest-posts-grid .flyer .underline {
   text-decoration: underline;
 }
-
-
