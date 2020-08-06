@@ -18,7 +18,7 @@ body {
   display: flex;
 }
 
-.justify-content {
+.justify-content-space-around {
   justify-content: space-around;
 }
 
@@ -426,4 +426,39 @@ nav li input {
 
 .community-links-grid .article-summary {
   line-height: 1.6rem;
+}
+
+/* == design-systems == */
+.design-systems {
+  background-color: #d33a2c;
+  color: #fff;
+  padding: 30px 60px;
+  position: relative;
+}
+
+.design-systems-left {
+  line-height: 1.7rem;
+  width: 65%;
+}
+
+.design-systems h2 {
+  margin: 25px 0;
+}
+
+.design-systems button {
+  margin: 20px 0;
+  padding: 22px 30px;
+  font-size: 120%;
+}
+
+.design-systems-right {
+  width: 258px;
+  height: 378px;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+.design-systems-right img {
+  width: 100%;
 }
