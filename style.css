@@ -87,6 +87,18 @@ body h2 {
   transform: rotate(0);
 }
 
+.clear-fix {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.date {
+  color: #333;
+  font-size: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 /* header */
 
 ul {
@@ -331,7 +343,7 @@ nav li input {
 /* == person-of-the-week == */
 
 .person-of-the-week {
-  padding: 100px 50px 300px 114px;
+  padding: 100px 50px 100px 114px;
   position: relative;
   color: #333;
 }
@@ -365,4 +377,53 @@ nav li input {
 
 .bio a {
   color: blue;
+}
+
+/* == community-links == */
+
+.community-links {
+  padding: 0 100px 100px 75px;
+}
+
+.community-links-grid {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 150px 25px;
+  margin-bottom: 70px;
+}
+
+.community-links-rotation-box {
+  width: 86px;
+  height: 86px;
+  margin-right:  30px;
+}
+
+.community-links-author {
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.community-links-grid article img {
+  border: 5px solid #d33a2c;
+  border-radius: 12px;
+  width: 86px;
+}
+
+.community-links-article-title {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+
+.community-links-article-title a {
+  text-decoration: none;
+}
+
+.community-links-article-title:hover {
+  color: #d33a2c;
+}
+
+.community-links-grid .article-summary {
+  line-height: 1.6rem;
 }
