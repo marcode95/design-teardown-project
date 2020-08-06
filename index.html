@@ -418,14 +418,14 @@
         </div>
     </section>
     <section class="our-guides">
-        <div class="our-guides-grid">
+        <div class="our-guides-grid grid">
             <article>
                 <p class="our-guides-pre-headline">
                     A Smashing Guide to
                 </p>
                 <h2><a href="#">JavaScript & Frameworks</a></h2>
                 <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer working with one of these frameworks, or just starting to learn, our authors have created some tutorials for you.</p>
-                <button>Explore JavaScript & Frameworks</button>
+                <button class="btn">Explore JavaScript & Frameworks</button>
             </article>
             <article>
                 <p class="our-guides-pre-headline">
@@ -433,7 +433,7 @@
                 </p>
                 <h2><a href="#">JavaScript & Frameworks</a></h2>
                 <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer working with one of these frameworks, or just starting to learn, our authors have created some tutorials for you.</p>
-                <button>Explore JavaScript & Frameworks</button>
+                <button class="btn">Explore JavaScript & Frameworks</button>
             </article>
             <article>
                 <p class="our-guides-pre-headline">
@@ -441,25 +441,28 @@
                 </p>
                 <h2><a href="#">JavaScript & Frameworks</a></h2>
                 <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer working with one of these frameworks, or just starting to learn, our authors have created some tutorials for you.</p>
-                <button>Explore JavaScript & Frameworks</button>
+                <button class="btn">Explore JavaScript & Frameworks</button>
             </article>
-            <div>
-                <div>
+            <div class="flyer">
+                <div class="flyer-image-frame">
                     <a href="#">
                         <img src="https://www.smashingmagazine.com/images/smashing-cat/singing-barista.svg" alt="smashing cat">
                     </a>
-                    <h2>
-                        Email Newsletter
-                    </h2>
+
                 </div>
+                <h2>
+                    Email Newsletter
+                </h2>
                 <p>
                     Every second Tuesday, we send an email newsletter with useful techniques on front-end and UX. Subscribe and get Smart Interface Design Checklists PDF in your inbox.     
                 </p>
                 <form>
-                    <input type="text">
-                    <button>Meow!</button>
+                  <div class="inline-form flex">
+                    <input class="input-field" type="text" placeholder="Your email">
+                    <input class="submit-field" type="submit" value="Meow!">
+                  </div>
                 </form>
-                <p>Front-end, UX and design. 2× a month. <br>
+                <p class="flyer-note">Front-end, UX and design. 2× a month. <br>
                     You can always unsubscribe with just 1 click.
                 </p>
             </div>
