@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: inherit;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,6 +31,22 @@ body {
 
 .black-hashtag {
   color: #000;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #fff;
+  color: dodgerblue;
+  border: transparent;
+  border-radius: 7px;
+  font-weight: 700;
+}
+
+.arrow-icon {
+  position: absolute;
+  left: 80px;
+  bottom: 20px;
+  font-size: 32px;
 }
 
 /* header */
@@ -162,12 +182,45 @@ nav li input {
   margin-right: 1.2rem;
 }
 
-.top-four-articles .arrow-icon {
-  position: absolute;
-  left: 80px;
-  bottom: 20px;
-  font-size: 32px;
-  color: #fff;
+/* == Latest-posts-grid == */
+.latest-posts-grid {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
+.latest-posts-grid article {
+  border: 1px solid red;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  color: #444;
+  padding: 0 30px 0 15px;
+  position: relative;
+}
 
+.latest-posts-grid a {
+  text-decoration: none;
+}
+
+.latest-posts-grid .flyer {
+  background-color: #a32d22;
+  text-align: center;
+  line-height: 1.5rem;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.latest-posts-grid .flyer img {
+  width: 224px;
+  margin-bottom: 1.5rem;
+}
+
+.flyer p {
+  margin-bottom: 2rem;
+}
+
+.latest-posts-grid .underline {
+  text-decoration: underline;
+}
+
+.latest-posts-grid article span {
+  background-color red;
+}
