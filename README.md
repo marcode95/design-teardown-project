@@ -8,7 +8,7 @@ An HTML and CSS mockup of the smash magazine homepage. We used Grid, Flexbox and
 
 ## Live demo
 
-🔗 [Smash Magazine Webiste Clone](https://rawcdn.githack.com/marcode95/design-teardown-project/b0df6ab28d6447d168931fa41f3500701c1ccf47/index.html)
+🔗 [Smash Magazine Webiste Clone](https://rawcdn.githack.com/marcode95/design-teardown-project/ebd85c859781abe2acfe51f46c00690b28a33c69/index.html)
 
 ## Built With
 
