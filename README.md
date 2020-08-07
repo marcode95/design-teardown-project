@@ -2,13 +2,13 @@
 
 > This project was developed as a learning project part of the Microverse curriculum.
 
-![screenshot](./img/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 An HTML and CSS mockup of the smash magazine homepage. We used Grid, Flexbox and Float properties to achieve the same layout and proportions of the original page.
 
 ## Live demo
 
-🔗 [Apple Website Clone](https://rawcdn.githack.com/marcode95/design-teardown-project/b0df6ab28d6447d168931fa41f3500701c1ccf47/index.html)
+🔗 [Smash Magazine Webiste Clone](https://rawcdn.githack.com/marcode95/design-teardown-project/b0df6ab28d6447d168931fa41f3500701c1ccf47/index.html)
 
 ## Built With
 
