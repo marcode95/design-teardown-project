@@ -10,8 +10,13 @@ a {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #f1f1f1;
+}
+
+body section,
+body footer,
+body input {
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 .flex {
@@ -31,7 +36,7 @@ body {
 }
 
 .black-hashtag {
-  color: #000;
+  color: #555;
 }
 
 .btn {
@@ -134,7 +139,11 @@ nav li button {
 
 .header-more-button {
   background-color:#a32d22;
-  margin-right: 30px;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+.header-more-button:hover {
+  background-color: #af2619;
 }
 
 nav li button:hover {
@@ -143,10 +152,13 @@ nav li button:hover {
 
 nav li input {
   width: 350px;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 1rem 1rem 2.5rem;
   border-radius: 10px;
   outline: none;
   border: none;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgaGVpZ2h0PSIyNCIgd2lkdGg9IjI0Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjIyLjMxIiB5MT0iMjMuNjIiIHgyPSIzLjczIiB5Mj0iMy4wNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2U5MzcyMiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2Y4NmYyNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjx0aXRsZT5NYWduaWZpZXI8L3RpdGxlPjxwYXRoIGZpbGw9InVybCgjbGluZWFyLWdyYWRpZW50KSIgZD0iTTIzLjMzIDIwLjFsLTQuNzMtNC43NGExMC4wNiAxMC4wNi4wIDEgMC0zLjIzIDMuMjNsNC43NCA0Ljc0YTIuMjkgMi4yOS4wIDEgMCAzLjIyLTMuMjN6bS0xNy40OC01Ljg0YTUuOTQgNS45NC4wIDEgMSA4LjQyLjAgNiA2IDAgMCAxLTguNDIuMHoiLz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-position: 3% 50%;
 }
 
 /* top four articles */
@@ -204,7 +216,7 @@ nav li input {
 
 .top-four-articles-grid article {
   position: relative;
-  padding: 200px 80px 40px;
+  padding: 200px 60px 40px 80px;
   height: 700px;
   flex-direction: column;
   justify-content: center;
@@ -239,9 +251,19 @@ nav li input {
 }
 
 .top-article-options li {
-  margin-right: 1.2rem;
+  margin: 20px 24px 150px 0;
 }
 
+.top-article-options sup {
+  font-size: smaller;
+  vertical-align: super;
+}
+
+.top-article-options .leave-a-comment {
+  white-space: pre;
+  word-break: break-all;
+  display: inline-block;
+}
 /* == Latest-posts-grid == */
 
 .latest-posts {
@@ -624,6 +646,7 @@ nav li input {
 .footer-options a {
   margin-right: 10px;
 }
+
 
 .footer img {
   width: 10%;
