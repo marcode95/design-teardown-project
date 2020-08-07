@@ -1,14 +1,14 @@
-# backgrounds-and-gradients
+# design-teardown
 
 > This project was developed as a learning project part of the Microverse curriculum.
 
 ![screenshot](./img/screenshot.png)
 
-An HTML and CSS mockup of the Apple homepage. We used Grid and Flexbox properties to achieve the same layout and proportions of the original page, background properties and gradients for styling.
+An HTML and CSS mockup of the smash magazine homepage. We used Grid, Flexbox and Float properties to achieve the same layout and proportions of the original page.
 
 ## Live demo
 
-🔗 [Apple Website Clone](https://rawcdn.githack.com/enkog/backgrounds-and-gradients/fe7f68adef5b1912aaf216c082d31fe980cc45f7/index.html)
+🔗 [Apple Website Clone](https://rawcdn.githack.com/marcode95/design-teardown-project/b0df6ab28d6447d168931fa41f3500701c1ccf47/index.html)
 
 ## Built With
 
@@ -31,7 +31,7 @@ Webbrowser and access to internet
 1) [Download](Clone the repository to your machine)
 
 ```sh
-$ git clone https://github.com/enkog/backgrounds-and-gradients/tree/develop 
+$ git clone https://github.com/marcode95/design-teardown-project/tree/develop
 ```
 
 2) Navigate to the project folder and execute the "index.html" file.
@@ -48,10 +48,10 @@ Just navigate through the page.
 
 
 
-👤 **Nkiruka Awotoruvie**
+👤 **Bello Babakolo**
 
-- Github: [@enkog](https://github.com/enkog)
-- Twitter: [@enkodes](https://twitter.com/enkodes)
+- Github: [@belsman](https://github.com/belsman)
+
 
 
 ## 🤝 Contributing
