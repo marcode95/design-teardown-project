@@ -8,6 +8,7 @@
 body {
   background-color: #f1f1f1;
   max-width: 100%;
+  filter: grayscale(1);
 }
 
 body section,
@@ -225,15 +226,27 @@ nav li input {
   background-position: 3% 50%;
 }
 
-/* top four articles */
+/* headline */
 
-.top-four-articles {
+.headline {
+  width: 100%;
+  height: 130px;
   position: relative;
+}
+
+.headline-right {
+  background-color: #9c3a31;
+  width: 50%;
+}
+
+.headline-left {
+  background-color: #9e342a;
+  width: 50%;
 }
 
 .top-four-articles-headline {
   position: absolute;
-  top: 2%;
+  top: 30px;
   left: 50%;
   z-index: 1;
   text-align: center;
@@ -243,18 +256,15 @@ nav li input {
   line-height: 3.5rem;
 }
 
+/* top four articles */
+
+.top-four-articles {
+  position: relative;
+}
+
 .top-four-articles-headline span {
   background-color: white;
   padding: 7px;
-}
-
-.top-four-articles-color-change {
-  position: absolute;
-  top: 1.5%;
-  right: 5%;
-  background-color: inherit;
-  border: transparent;
-  align-items: center;
 }
 
 .small-transition-box {
@@ -280,20 +290,18 @@ nav li input {
 
 .top-four-articles-grid article {
   position: relative;
-  padding: 300px 30px 40px 80px;
-  height: 700px;
+  padding: 50px 30px 30px 80px;
+  height: auto;
   flex-direction: column;
   justify-content: center;
 }
 
 .top-four-articles .bottom-left {
   background-color: #a32d22;
-  padding-top: 0;
 }
 
 .top-four-articles .bottom-right {
   background-color: #9e342a;
-  padding-top: 0;
 }
 
 .top-four-articles .top-left {
@@ -304,12 +312,16 @@ nav li input {
   background-color: #9c3a31;
 }
 
+.top-four-articles-grid .small-arrow {
+  font-size: 2rem;
+}
+
 .top-four-articles-grid h2 span {
   font-size: 1rem;
 }
 
 .top-article-options li {
-  margin: 20px 24px 150px 0;
+  margin: 20px 24px 60px 0;
 }
 
 .top-article-options sup {
@@ -358,8 +370,8 @@ nav li input {
 
 .latest-posts-grid article span {
   background-color: inherit;
-  width: 90px;
-  height: 90px;
+  width: 115px;
+  height: 115px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -368,7 +380,7 @@ nav li input {
 .latest-posts-grid article span i {
   position: absolute;
   left: 50px;
-  top: 37px;
+  top: 47px;
 }
 
 .latest-posts-grid article:hover span {
